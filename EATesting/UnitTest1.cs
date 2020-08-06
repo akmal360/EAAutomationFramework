@@ -16,6 +16,7 @@ namespace EATesting
         {
             _driver = new FirefoxDriver();
             _driver.Navigate().GoToUrl(url);
+            //call the login
             Login();
 
         }
